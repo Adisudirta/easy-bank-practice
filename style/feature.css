@@ -1,5 +1,5 @@
 .feature {
-  background-color: hsl(220, 16%, 96%);
+  background-color: var(--light-gray-blue);
   display: flex;
   justify-content: center;
 }
@@ -9,7 +9,7 @@
 }
 
 .feature-title {
-  color: hsl(233, 26%, 24%);
+  color: var(--dark-blue);
   font-size: 33px;
   font-weight: 400;
   margin-bottom: 25px;
@@ -17,7 +17,7 @@
 }
 
 .feature-subtitle {
-  color: hsl(233, 8%, 62%);
+  color: var(--gray-blue);
   font-size: 18px;
   font-weight: 300;
   line-height: 26px;
@@ -30,9 +30,10 @@
 }
 
 .feature-content {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   height: 300px;
-  padding: 18px;
+  padding-right: 30px;
+  width: 25%;
 }
 
 .feature-icon {
@@ -41,7 +42,7 @@
 }
 
 .feature-name {
-  color: hsl(233, 26%, 24%);
+  color: var(--dark-blue);
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 32px;
@@ -49,7 +50,7 @@
 }
 
 .feature-text {
-  color: hsl(233, 8%, 62%);
+  color: var(--gray-blue);
   font-size: 17px;
   font-weight: 300;
   line-height: 26px;

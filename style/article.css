@@ -1,0 +1,55 @@
+.article {
+  background-color: var(--very-light-gray);
+  display: flex;
+  justify-content: center;
+}
+
+.article-container {
+  width: 80%;
+}
+
+.article-heading {
+  color: var(--dark-blue);
+  font-size: 33px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.article-list {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.article-items {
+  height: 400px;
+  padding-right: 30px;
+  width: 25%;
+}
+
+.article-content {
+  background-color: white;
+  padding: 25px;
+}
+
+.article-img {
+  border-radius: 6px 6px 0px 0px;
+  height: 150px;
+  width: 100%;
+}
+
+.article-author-name {
+  color: var(--gray-blue);
+  font-size: 12px;
+  margin: 0;
+}
+
+.article-title {
+  color: var(--dark-blue);
+  font-size: 16px;
+}
+
+.article-text {
+  color: var(--gray-blue);
+  font-size: 15px;
+}
