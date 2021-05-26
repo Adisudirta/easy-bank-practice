@@ -6,8 +6,9 @@
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   height: 110px;
+  justify-content: space-between;
+  max-width: 1440px;
   padding: 40px 0;
   width: 80%;
 }
