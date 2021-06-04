@@ -64,5 +64,13 @@
 .banner-content-right img {
   position: absolute;
   right: 0;
-  width: 564px;
+  top: -100px;
+  width: 665px;
+}
+
+@media only screen and (min-width: 1367px) {
+  .banner-content-right img {
+    top: 20px;
+    width: 800px;
+  }
 }
